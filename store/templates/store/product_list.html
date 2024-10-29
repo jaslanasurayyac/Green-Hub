@@ -22,8 +22,8 @@
                         <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
                     </div>
                     <div class="product-price d-flex justify-content-between align-items-center">
-                        <h5 class="text-primary mb-0"><span>$</span>{{ product.discount_price }}</h5>
-                        <small class="text-muted"><del>${{ product.price }}</del></small>
+                        <h5 class="text-primary mb-0">&#8377;{{ product.discount_price }}</h5>
+                        <small class="text-muted"><del>&#8377;{{ product.price }}</del></small>
                     </div>
                 </div>
             </div>
